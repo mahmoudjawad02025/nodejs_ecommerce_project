@@ -2,7 +2,7 @@
   <h1>🛍️ Node.js E-Commerce REST API</h1>
   
   <p>
-    <strong>A robust, modular backend engine for a complete e-commerce platform.</strong>
+    <strong>A robust, modular, scalable backend for a complete e-commerce platform.</strong>
   </p>
 
   <p>
@@ -52,6 +52,7 @@ This project is a feature-rich **E-Commerce Backend** built with Node.js and Exp
 
 ## 🚀 Technical Highlights
 
+- **Scalable structure**: each domain (auth, product, order, coupon) is a self-contained module, so new features plug in without changing existing ones.
 - **Clean Architecture Principles**: Domain-driven, modular design separating routing, controllers, schemas, and middlewares for maximum testability and maintainability.
 - **Global Error Handling Framework**: A custom, centralized error interception middleware that eliminates `try-catch` boilerplate and guarantees standardized, predictable API responses.
 - **"Clean View" Formatting Standard**: Strict adherence to a highly readable code organization system, utilizing uniform section headers (`//- - -`) and consistent spatial logic.
